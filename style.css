@@ -1,0 +1,92 @@
+.title{
+    text-align: center;
+}
+.title p{
+    color: gray;
+}
+button{
+    padding: 8px 16px;
+    border-radius: 7px;
+    margin: 5px;
+}
+.about{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.contact{
+    color: gray;
+    background-color: white;
+    border: .5px solid gray;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    border: .5px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+}
+.main img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.p{
+    color: gray;
+    font-weight: 400;
+}
+.main h3{
+    font-weight: 400;
+}
+
+@media (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        width: 70%;
+    }
+    .container img{
+        width: 100%;
+        height: auto;
+    }
+}
+ 
+@media (min-width:600px) and (max-width:768px){
+    body{
+        margin: 0;
+        padding: 00;
+    }
+    .title{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
