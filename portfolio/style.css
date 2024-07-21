@@ -1,0 +1,207 @@
+/* stuling for the whole webpage */
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+/* header styling */
+header{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    background-color: blueviolet;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+/* styling for home section */
+.profile{
+    display: flex;
+    height: 90vh;
+}
+.intro h1 span{
+    color: blueviolet;
+}
+.text{
+    width: 60%;
+    text-align: justify;
+    padding: 0px 100px 0px 30px;
+}
+.pfp{
+    width: 40%;
+    display: flex;
+    text-align: center;
+}
+.pfp img{
+    border-radius: 8px;
+}
+.content{
+    margin: auto;
+}
+.intro p{
+    color: gray;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+/* styling for skill section */
+#section-2{
+    text-align: center;
+}
+.common{
+    background-color: white;
+    color: black;
+    width: 30%;
+    margin: auto 15px;
+    border-radius: 8px;
+    padding: 60px 20px 30px;
+}
+.common p{
+    color: gray;
+}
+.common h2{
+    font-weight: lighter;
+}
+#section-3{
+    text-align: center;
+}
+.whole{
+    display: flex;
+    height: 80vh;
+    
+}
+.one{
+    border: 1px solid gray;
+    width: 27%;
+    margin: auto 30px;
+    border-radius: 5px;
+}
+.one img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.one p{
+    text-align: justify;
+    color: gray;
+    padding: 50px 20px 15px 12px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.one button{
+    border: none;
+    color: gray;
+    background-color: black;
+    margin: 10px;
+    font-size: larger;
+}
+/* styling on testimonial section */
+#testimonial{
+    text-align: center;
+    margin: 7px 0px;
+    
+}
+.test-container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+.test-content{
+    width: 50%;
+    margin: auto;
+}
+.test-img img{
+    border-radius: 50%;
+}
+.test-word{
+    text-align: justify;
+    padding: 0px 15px;
+    margin-left: 35px;
+}
+.test-word p{
+    color: gray;
+}
+.test-word button{
+    background-color: blueviolet;
+    padding: 13px 23px;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 18px 0px;
+}
+/* Responsiveness */
+@media (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .navbar ul li a{
+        padding: 5px;
+    }
+     .profile{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+     }
+     .pfp{
+        width: 100vw;
+        
+     }
+     .profile img{
+        width: 80%;
+        height: 300px;
+        margin-left: 40px;
+     }
+     .container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+        margin-left: 20px;
+     }
+     .common{
+        width: 80%;
+        margin: 5px 0px;
+     }
+     .whole ,.test-container{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+     }
+     .one{
+        width: 80%;
+        margin: 5px 0px;
+     }
+     .whole img{
+        height: 300px;
+        width: 100%;
+     }
+     .text{
+        width: 80%; 
+        margin: 0;
+        padding: 0;
+     }
+     .test-img{
+        display: none;
+     }
+    
